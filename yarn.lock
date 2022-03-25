@@ -1503,6 +1503,13 @@
   dependencies:
     "@hi-ui/core-css" "^4.0.0-beta.3"
 
+"@hi-ui/core@^4.0.0-beta.5":
+  version "4.0.0-beta.5"
+  resolved "https://registry.npmjs.org/@hi-ui/core/-/core-4.0.0-beta.5.tgz#b353e0964b214c5852123cbcfd3ccf8ed693ef8a"
+  integrity sha512-EA6b95uWjjeBWvaa9SkOlXkDzBgtlqPMxfrxZBPsTJeH6PR85Z8k35yhFEmujWCQopBnHf9VJrSX4EBfXCLSpA==
+  dependencies:
+    "@hi-ui/core-css" "^4.0.0-beta.3"
+
 "@hi-ui/counter@^4.0.0-beta.7":
   version "4.0.0-beta.7"
   resolved "https://registry.npmjs.org/@hi-ui/counter/-/counter-4.0.0-beta.7.tgz#21e56fa9563457e8cf2bb722058eea580e2a718f"
@@ -1536,16 +1543,16 @@
     moment "^2.29.1"
     react-transition-group "^4.4.2"
 
-"@hi-ui/descriptions@^4.0.0-alpha.3":
-  version "4.0.0-alpha.3"
-  resolved "https://registry.npmjs.org/@hi-ui/descriptions/-/descriptions-4.0.0-alpha.3.tgz#791fbabbf6a0e052512ac154384e73a98dcef5f7"
-  integrity sha512-yZyAoYbKtgVWrxiwdPychkEMU2yfKHarLRHp5JieMicHZlDAEOhylqN1BPtVFc6/pCESZ4tOLNHaQUpeI3gmHQ==
+"@hi-ui/descriptions@^4.0.0-alpha.8":
+  version "4.0.0-alpha.8"
+  resolved "https://registry.npmjs.org/@hi-ui/descriptions/-/descriptions-4.0.0-alpha.8.tgz#0651c3f5f313eaed6f25ae467d65e3981c3dd485"
+  integrity sha512-H5uQ+cJZWAvb+hdP7io5fpqeit/L4pOMiimzcFdW2O8kXK/ke8T5hfRottZty8mXiaLvsl776LPihqCy1qaDkg==
   dependencies:
     "@hi-ui/classname" "^4.0.0-beta.0"
-    "@hi-ui/core" "^4.0.0-beta.3"
+    "@hi-ui/core" "^4.0.0-beta.5"
     "@hi-ui/core-css" "^4.0.0-beta.3"
     "@hi-ui/env" "^4.0.0-beta.0"
-    "@hi-ui/type-assertion" "^4.0.0-beta.1"
+    "@hi-ui/type-assertion" "^4.0.0-beta.3"
 
 "@hi-ui/dom-utils@^4.0.0-beta.1":
   version "4.0.0-beta.1"
@@ -2416,6 +2423,11 @@
   version "4.0.0-beta.1"
   resolved "https://registry.npmjs.org/@hi-ui/type-assertion/-/type-assertion-4.0.0-beta.1.tgz#485a53ac41cbb26d06ee6b66ee62d40f4aa1d6fb"
   integrity sha512-tfWzEo1hDcpXuDp0TXMNOHIiFFj36DiUqlFPq3VvjIW/LDn36iO4OI2wFzwFo+OJAGBEWCug+prN+sPW6bA4ag==
+
+"@hi-ui/type-assertion@^4.0.0-beta.3":
+  version "4.0.0-beta.3"
+  resolved "https://registry.npmjs.org/@hi-ui/type-assertion/-/type-assertion-4.0.0-beta.3.tgz#baa15253c3bb6401a5e090b805fcae1fe98bcd69"
+  integrity sha512-C6bvR7OCoz8be2lJsO/KfcLvA1mrjMZU5yPnCFABHQkZ3rGQFRlLRfnuxkeQDcK9RT0NCb0OfUIwfY6HGfdUpQ==
 
 "@hi-ui/upload@^4.0.0-beta.14":
   version "4.0.0-beta.14"

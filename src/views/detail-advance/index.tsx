@@ -78,8 +78,10 @@ export const DetailAdvance = () => {
           <Title>基础信息</Title>
           <Card bordered={false}>
             <CardTitle title="机构概况" />
-            <Descriptions appearance="table" labelPlacement="right" noBackground>
-              <Descriptions.Item label="机构类型">第三方网点</Descriptions.Item>
+            <Descriptions labelPlacement="right">
+              <Descriptions.Item label="机构类型" labelWidth="240px">
+                第三方网点
+              </Descriptions.Item>
               <Descriptions.Item label="主子站">主站</Descriptions.Item>
               <Descriptions.Item label="机构状态">有效</Descriptions.Item>
               <Descriptions.Item label="机构名称">2.5级</Descriptions.Item>
@@ -93,8 +95,10 @@ export const DetailAdvance = () => {
           <Title>资质信息</Title>
           <Card bordered={false} style={{ marginBottom: 8 }}>
             <CardTitle title="负责人信息" />
-            <Descriptions appearance="table" labelPlacement="right" noBackground>
-              <Descriptions.Item label="负责人">张三</Descriptions.Item>
+            <Descriptions labelPlacement="right">
+              <Descriptions.Item label="负责人" labelWidth="240px">
+                张三
+              </Descriptions.Item>
               <Descriptions.Item label="网点经理">李四</Descriptions.Item>
               <Descriptions.Item label="紧急联系人">王五</Descriptions.Item>
               <Descriptions.Item label="负责人电话">18088886666</Descriptions.Item>
@@ -109,8 +113,10 @@ export const DetailAdvance = () => {
           </Card>
           <Card bordered={false}>
             <CardTitle title="企业信息" />
-            <Descriptions appearance="table" labelPlacement="right" noBackground>
-              <Descriptions.Item label="企业性质">民营企业</Descriptions.Item>
+            <Descriptions labelPlacement="right">
+              <Descriptions.Item label="企业性质" labelWidth="240px">
+                民营企业
+              </Descriptions.Item>
               <Descriptions.Item label="注册资金">1000万</Descriptions.Item>
               <Descriptions.Item label="工商注册号">535345628999</Descriptions.Item>
               <Descriptions.Item label="工商营业期限">10年</Descriptions.Item>
@@ -129,8 +135,10 @@ export const DetailAdvance = () => {
             <Col span={24}>
               <Card bordered={false} style={{ marginBottom: 12 }}>
                 <CardTitle title="地址信息" />
-                <Descriptions appearance="table" labelPlacement="right" noBackground column={2}>
-                  <Descriptions.Item label="营业地址">张三</Descriptions.Item>
+                <Descriptions labelPlacement="right" column={2}>
+                  <Descriptions.Item label="营业地址" labelWidth="240px">
+                    张三
+                  </Descriptions.Item>
                   <Descriptions.Item label="实际使用面积">180㎡</Descriptions.Item>
                   <Descriptions.Item label="前往方式">
                     地铁11号线光谷四路站B2出口出门直行1.5公里
@@ -144,8 +152,10 @@ export const DetailAdvance = () => {
             <Col span={24}>
               <Card bordered={false}>
                 <CardTitle title="门店信息" />
-                <Descriptions appearance="table" labelPlacement="right" noBackground column={2}>
-                  <Descriptions.Item label="营业时间">9:00-18:00</Descriptions.Item>
+                <Descriptions labelPlacement="right" column={2}>
+                  <Descriptions.Item label="营业时间" labelWidth="240px">
+                    9:00-18:00
+                  </Descriptions.Item>
                   <Descriptions.Item label="单日上门最大值">200</Descriptions.Item>
                   <Descriptions.Item label="到店预约值" span={2}>
                     <Table
@@ -198,7 +208,7 @@ export const DetailAdvance = () => {
                           thu: '20',
                           fri: '20',
                           sat: '20',
-                          key: 1,
+                          key: 2,
                         },
                         {
                           name: '9:00-10:00',
@@ -208,7 +218,7 @@ export const DetailAdvance = () => {
                           thu: '20',
                           fri: '20',
                           sat: '20',
-                          key: 1,
+                          key: 3,
                         },
                       ]}
                     ></Table>
@@ -224,8 +234,10 @@ export const DetailAdvance = () => {
               <Title>服务范围</Title>
               <Card bordered={false} style={{ marginBottom: 8 }}>
                 <CardTitle title="反馈信息" />
-                <Descriptions appearance="table" labelPlacement="right" noBackground>
-                  <Descriptions.Item label="机构子类型">普通网点形象店</Descriptions.Item>
+                <Descriptions labelPlacement="right">
+                  <Descriptions.Item label="机构子类型" labelWidth="240px">
+                    普通网点形象店
+                  </Descriptions.Item>
                   <Descriptions.Item label="网点标识">--</Descriptions.Item>
                   <Descriptions.Item label="归属服务渠道">上门渠道</Descriptions.Item>
                   <Descriptions.Item label="服务方式">上门、送修、寄修</Descriptions.Item>
