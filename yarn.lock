@@ -1311,7 +1311,7 @@
     "@hi-ui/core-css" "^4.0.0-beta.3"
     "@hi-ui/env" "^4.0.0-beta.0"
 
-"@hi-ui/button@^4.0.0-beta.7", "@hi-ui/button@^4.0.0-beta.8":
+"@hi-ui/button@^4.0.0-beta.8":
   version "4.0.0-beta.8"
   resolved "https://registry.npmjs.org/@hi-ui/button/-/button-4.0.0-beta.8.tgz#f491133a578de7d200d2898f5b59bdb23a9ddd68"
   integrity sha512-v3HNaN9rYHaZFYAwK5rNVXpxVpwhBgFzlm8u/LmUx9rwxQNNMaykUxfm++42bm2ZE4e2oHcc/3UQE6fYawljRg==
@@ -1469,13 +1469,6 @@
     "@hi-ui/use-latest" "^4.0.0-beta.3"
     "@hi-ui/use-uncontrolled-state" "^4.0.0-beta.3"
 
-"@hi-ui/classname@^4.0.0-alpha.0":
-  version "4.0.0-alpha.0"
-  resolved "https://registry.npmjs.org/@hi-ui/classname/-/classname-4.0.0-alpha.0.tgz#0966694acccb793aa67b54ed0a63dec950fd9299"
-  integrity sha512-NUca4iXsDbyNfQEkNyaJn/T+vJpQBLMryeQBUaS24Lw2hQk6fjbwrwzerMcUhvEefoTQ1HRfthhGChM8Yy3+yA==
-  dependencies:
-    classnames "^2.3.1"
-
 "@hi-ui/classname@^4.0.0-beta.0":
   version "4.0.0-beta.0"
   resolved "https://registry.npmjs.org/@hi-ui/classname/-/classname-4.0.0-beta.0.tgz#ba24d052b6f92b392af0c2835c5457e1d0c65fd2"
@@ -1499,17 +1492,12 @@
   resolved "https://registry.npmjs.org/@hi-ui/container/-/container-4.0.0-beta.3.tgz#c5f793773b03a2d1dd78417a8fadd10866d09ba8"
   integrity sha512-enPNFHst2RJhr3T31GF8TPdITxW7DoY/zUP2NdUev5vFyGHdTdddG4YayX30A/zNgLP2dhk7koeJW+1JlAQWgQ==
 
-"@hi-ui/core-css@^4.0.0-alpha.0":
-  version "4.0.0-alpha.0"
-  resolved "https://registry.npmjs.org/@hi-ui/core-css/-/core-css-4.0.0-alpha.0.tgz#e3de589d9f1f3ecb8d34fe394d1057eb3965b7b3"
-  integrity sha512-TPkYGosZTlBF/Oj+yZKOKYaptAoG8cfCbydYmBFCsn/J/XQRdfCkKJr1Jb5ao6TPil1sWIkFT0/eFHj1z12ihQ==
-
 "@hi-ui/core-css@^4.0.0-beta.3":
   version "4.0.0-beta.3"
   resolved "https://registry.npmjs.org/@hi-ui/core-css/-/core-css-4.0.0-beta.3.tgz#cf6acc10422656780706c41d82381aba3b4d1433"
   integrity sha512-mmbV5Br9jPqxopgZFZ7nWpmXvn7ka9oLHZTDztAM725OqxVbNQFTNCGjc8x9T+udUJKtsArkEhdevJgjyNqPyg==
 
-"@hi-ui/core@^4.0.0-beta.4", "@hi-ui/core@^4.0.0-beta.5":
+"@hi-ui/core@^4.0.0-beta.5":
   version "4.0.0-beta.5"
   resolved "https://registry.npmjs.org/@hi-ui/core/-/core-4.0.0-beta.5.tgz#b353e0964b214c5852123cbcfd3ccf8ed693ef8a"
   integrity sha512-EA6b95uWjjeBWvaa9SkOlXkDzBgtlqPMxfrxZBPsTJeH6PR85Z8k35yhFEmujWCQopBnHf9VJrSX4EBfXCLSpA==
@@ -1614,11 +1602,6 @@
     "@hi-ui/env" "^4.0.0-beta.0"
     "@hi-ui/locale-context" "^4.0.0-beta.11"
     "@hi-ui/type-assertion" "^4.0.0-beta.3"
-
-"@hi-ui/env@^4.0.0-alpha.0":
-  version "4.0.0-alpha.0"
-  resolved "https://registry.npmjs.org/@hi-ui/env/-/env-4.0.0-alpha.0.tgz#8f2c4ec050c5ccf06c261f87ed16d11e435755e2"
-  integrity sha512-3jQi2YxYtUvdx3rqFEuKEK9hMPudc16hfiER339VKyukzwF1dFXaulw/Vlt738QxPM0JCEvEl1ylglGgV0AZfg==
 
 "@hi-ui/env@^4.0.0-beta.0":
   version "4.0.0-beta.0"
@@ -1796,7 +1779,7 @@
     "@hi-ui/env" "^4.0.0-beta.0"
     "@hi-ui/type-assertion" "^4.0.0-beta.3"
 
-"@hi-ui/icons@^4.0.0-beta.6", "@hi-ui/icons@^4.0.0-beta.7":
+"@hi-ui/icons@^4.0.0-beta.7":
   version "4.0.0-beta.7"
   resolved "https://registry.npmjs.org/@hi-ui/icons/-/icons-4.0.0-beta.7.tgz#25b55d8453e933b6a2ae4757a6acc7cd14fee0cb"
   integrity sha512-73Mq8VpuPnlyemJ5R0UhTO+UQMw36rd1cIYmqNEQhiihsg9IRLdJ0uYrY7gfupJJCcB6JA/fbqGeZlnHGQvApA==
@@ -2113,16 +2096,16 @@
     axios "^0.21.1"
 
 "@hi-ui/result@^4.0.0-alpha.3":
-  version "4.0.0-beta.1"
-  resolved "https://registry.npmjs.org/@hi-ui/result/-/result-4.0.0-beta.1.tgz#ad3ff2c6c2604e46ffb6ff71011c29d62b896ef7"
-  integrity sha512-x1eaLTliJQG3JNGKshrp+qqRMVpUDHJkzzRA7Gq1TIymB5mHDkoX9qSlDpY/oC4zA0YnLcHMqTQ7so3Xfpec/Q==
+  version "4.0.0-alpha.3"
+  resolved "https://registry.npmjs.org/@hi-ui/result/-/result-4.0.0-alpha.3.tgz#d986546f4bb432d9bbf63fcfcc1ffb27690decb6"
+  integrity sha512-JK+6hB2JNA8Ux+eVee1wA/alpZjPlhDsUQxhPC1J+UfLeszRPX23O/GRdcYMndD1cVD+nKAA5O+0gFQkFnHKmw==
   dependencies:
-    "@hi-ui/button" "^4.0.0-beta.7"
-    "@hi-ui/classname" "^4.0.0-alpha.0"
-    "@hi-ui/core" "^4.0.0-beta.4"
-    "@hi-ui/core-css" "^4.0.0-alpha.0"
-    "@hi-ui/env" "^4.0.0-alpha.0"
-    "@hi-ui/icons" "^4.0.0-beta.6"
+    "@hi-ui/classname" "^4.0.0-beta.0"
+    "@hi-ui/core" "^4.0.0-beta.5"
+    "@hi-ui/core-css" "^4.0.0-beta.3"
+    "@hi-ui/env" "^4.0.0-beta.0"
+    "@hi-ui/icons" "^4.0.0-beta.7"
+    "@hi-ui/type-assertion" "^4.0.0-beta.3"
 
 "@hi-ui/search@^4.0.0-beta.14":
   version "4.0.0-beta.14"
